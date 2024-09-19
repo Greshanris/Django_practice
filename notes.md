@@ -53,3 +53,14 @@ here, "myproject" is the projectname, and we can write anything here.
 
 Now, we can see that there is "myproject" folder and inside the folder, there is another "myproject" folder and manage.py . It should be like this. 
 Inside the "myproject" folder which is inside the main "myproject" folder there will be different py files such as init, asgi, settings, urls, and wsgi which we will be working on later.
+
+## Starting up Server and making sure it's working
+
+First, we need to go to the top directory first. Rememeber, the "myproject" was the project name, so we have to go to the top folder which will be the parent "myproject" folder.
+
+```bash
+cd myproject
+```
+Remember that we have to go to the parent directory, from where you are.
+For me, i was in the Django_practice where i created the virtual environment. From here i changed my working directory to myproject.
+
